@@ -9,7 +9,7 @@ header {
     padding: 20px;
     font-size: 32px;
 }
-section {
+.chamada {
     background: rgb(77 92 179);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -22,4 +22,16 @@ section {
 }
 h1 {
     font-size: 40px;
+  }
+  img {
+    height: 200px;
+  }
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  .categoria {
+    padding-left: 20px;
+    padding-right: 30px;
   }

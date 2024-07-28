@@ -31,7 +31,11 @@ h1 {
 .categoria-videos {
     display: flex;
     overflow-x: auto;
+    white-space: nowrap;
     gap: 15px;
+}
+.categoria-videos::-webkit-scrollbar {
+    display: none;
 }
 
 .categoria {
